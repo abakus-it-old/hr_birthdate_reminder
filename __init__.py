@@ -1,1 +1,1 @@
-from . import hr_date_reminder
+from . import model
