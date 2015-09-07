@@ -41,7 +41,7 @@ class hr_employee_date_reminder(models.Model):
                 entrydatetime = string_to_datetime(val.entry_date,"%Y-%m-%d")
                 age = calculate_age(entrydate)
                 employee_string = '%s%s (%s/%s/%s, since %s years). '%(employee_string, val.name, entrydatetime.strftime('%d'), entrydatetime.strftime('%m'), entrydatetime.strftime('%Y'), str(age))
-            content = '%s/%s/%s<br/>' %(content,"Congratulate:",employee_string," at Abakus")
+            content = '%s/<br />Congratulate: %s/ at AbAKUS<br/>' %(content, employee_string)
             notify = True
 
         if notify:
