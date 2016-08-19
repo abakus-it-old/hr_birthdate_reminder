@@ -1,6 +1,6 @@
 {
     'name': "Employee birthday and entry date reminder",
-    'version': '1.0',
+    'version': '9.0.1.0',
     'depends': ['hr','hr_improvements', 'hr_contract'],
     'author': "Bernard DELHEZ, AbAKUS it-solutions SARL",
     'website': "http://www.abakusitsolutions.eu",
